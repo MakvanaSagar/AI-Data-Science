@@ -1,0 +1,24 @@
+#=================================Python String=================================
+
+a = 'Sagar'      #Single Quote String
+print(a)
+
+b = "DSM"       #Double Quote String
+print(b)
+
+c = '''Hi how are you
+I am a Mr.Sgagar
+And i am from India 
+Are you fine or not
+Please share your Feedback in chat
+Thank you for communicate 
+Bye Bye...'''                       #Multiline String
+print(c)
+
+#================================String in Indexing=============================
+
+x = "Hello World"
+print(x[0])     #Checkout any element Location using INDEXING.
+
+for char in c:
+    print(char)     #This is techniqe using you show any Sentence in horigontel line by line.

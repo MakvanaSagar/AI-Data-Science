@@ -1,0 +1,30 @@
+#==============================Exception/Error handling - With Finally keyword================================
+
+'''
+try:
+    a = int(input("Enter a number: "))
+    b = int(input("Enter a number: "))
+    c = a/b
+    print(c)
+except:
+    print("Something went wrong")
+finally:
+    print("I am a always executed")
+'''
+
+def myFun():
+  try:
+    x = [1, 2, 3, 4]
+    a = int(input("Enter a number: "))
+    print(x[a])
+    return 1
+    
+  except:
+    print("Something went wrong")
+    return 0
+  finally:
+    print("I am a always executed")
+  #print("I am a always executed")
+
+y = myFun()
+print(y)

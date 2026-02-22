@@ -1,0 +1,36 @@
+
+#=======================================Python Variable=========================================#
+
+a = 18 #This is variable are used to store data
+b = "Royal Sagar!" #and This is variable are used to store data
+print(a)
+print(b)
+
+sagar = 555 #This is same work variable form but before the define variable stored data in Variable values
+c = sagar
+print(c)
+
+#=======================================Pyhton Data Type========================================#
+
+#Some Python Data Type are :- (1: int) (2: float) (3: complex) (4: str) (5: bool) (6: list) (7: tuple) (8: dict)
+
+x = 19
+y = 56.12
+z = 45+5j
+p = "Mr.Sagar"
+q = True #True/False
+r = None
+h = [13,45,90,17,73] #List:- List is collection diffrent type of data --- and List data change anytime. 
+n = (53,63,654,12,123) #Tuple:- Tuple is collection of data --- and Tuple data can not change anytime.
+m = {"name": "Sagar", "age":18, "gender":"Male"} #Dictionary:- Dictionary is key value pair. 
+print(type(x))
+print(type(y))
+print(type(z))
+print(type(p))
+print(type(q))
+print(type(r))
+print(type(h))
+print(type(n))
+print(type(m))
+
+#MMIMP==> PYTHON IN ALL CODE OF ELEMENT ARE """OBJECT""".............!

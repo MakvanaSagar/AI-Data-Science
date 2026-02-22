@@ -1,0 +1,21 @@
+
+#========================================Python f-string====================================
+
+myStr = "Hello how are you {} Are you from {}?"
+name = "Rahul"
+city = "Rajkot"
+
+print(myStr.format(name, city))        #--------This is a one of the and oldest method of string formatting
+
+print("")
+
+print(f"Hello how are you {name} Are you from {city}?")      #--------f-string is a latest method of string formatting AND SIMPLE MEANS THAT YOUR STRING IN PUT VARIABLES IN {}...
+
+print("")
+
+price = 56.9876
+print(f"The price of this item is ty {price:.2f}")      #----------This method to use your floated values of formated...
+
+print("")
+
+print(f"{2*99}")      #---------f-string can also be used for mathematical operations...

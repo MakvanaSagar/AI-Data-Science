@@ -1,0 +1,46 @@
+
+
+#=============================if-else conditional statements==============================
+
+#Conditional operator : > >= < <= == !=
+
+s = int(input("\nEnter your Number : "))
+print("Your age : ",s)
+
+if(s>=18):
+    print("_____You can drive_____")
+else:
+    print("_____You can not drive_____")
+    
+print(".........Thank you.........")
+
+#=============================if-else-elif conditional statements==============================
+
+x = int(input("Enter your Number : "))
+
+if(x<0):
+    print("___Number is Nagative___")
+elif(x==0):
+    print("___Number is Zero___")
+else:
+    print("___Number is Positive___")
+    
+print(".........Thank you.........") 
+
+#=============================Nested-if conditional statements==============================
+
+p = int(input("Enter your Number : "))
+
+if(p<0):
+    print("___Number is Nagative___")
+elif(p>0):
+    if(p>1 and p<10):
+        print("___Number given range 1 to 10___")
+    elif(p>10 and p<100):
+        print("___Number given range 10 to 100___")
+    else:
+        print("___Number is Grater than 100___")
+else:
+    print("___Number is Zero___")
+    
+print(".........Thank you.........")

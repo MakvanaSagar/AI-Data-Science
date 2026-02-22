@@ -1,0 +1,47 @@
+
+#==========================================Dictionaries==========================================
+
+myDict = {"name":"Sagar","Age":19,"City":"Rajkot"}
+myDict2 = {}
+print(type(myDict))
+print(type(myDict2))
+print(myDict["name"])  #----Accsesing single value 
+print(myDict["Age"])  #----Accsesing single value
+print(myDict["City"])  #----Accsesing single value
+
+print(myDict.get("name"))  #----Accsesing single value
+
+print(myDict.keys())  #----Accsesing all keys as  a Same time
+
+print(myDict.values())  #----Accsesing all values as  a Same time
+
+print(myDict.items())  #----Accsesing all items as  a Same time
+
+for key in myDict.keys():
+  print(myDict[key])
+
+for key,value in myDict.items():
+  print(f"The value corresponding to the key {key} is {value}")
+
+#=================================Dictionaries Some Mathod=============================
+
+x = {99: 790, 100: 800, 101: 900}
+y = {56: 890, 57: 900, 58: 910}
+
+
+x.update(y)
+print(x)    #-------Merge two dictionaries
+
+
+x.pop(100)
+print(x)    #-------Remove the key value pair
+
+
+del x[99]
+print(x)    #-------Remove the key value pair
+
+x.popitem()
+print(x)    #-------Remove the last key value pair using automatic
+
+x.clear()
+print(x)    #-------Clear all items in the dictionary

@@ -1,0 +1,15 @@
+import time
+
+myTime = time.strftime('%H:%M:%S')
+print(myTime)
+
+if (myTime >= '00:00:00' and myTime <= '12:00:00'):
+  print("Good Morning Sir")
+elif (myTime >= '12:00:00' and myTime <= '16:00:00'):
+  print("Good Afternoon Sir")
+
+elif (myTime >= '16:00:00' and myTime <= '20:00:00'):
+  print("Good Evening Sir")
+
+else:
+  print("Good Night Sir")

@@ -1,0 +1,21 @@
+
+#========================================Doc-string========================================
+
+'''a = "Hi, I am a string"
+print(a)'''              #----------This is Python one type of multiple line of commenting-BUT INTERVIEW TIME AND LOCALY SAY ALWAY "DOC-STRING".
+
+def myFun(x):
+  '''This is a function which takes a number as an argument and returns the square of that number'''
+  print(x**2)
+myFun(50)
+print(myFun.__doc__)      #------This technique to use you can access the doc-string of the function.
+
+#========================================PEP-8========================================
+
+import this
+
+#PEP-8:-  PEP 8 stands for Python Enhancement Proposal 8. It was written in 2001 by Guido van Rossum, Barry Warsaw, and Nick Cog
+
+#PEP-8:-  It provides guidelines and best practices on how to write Python code. It was written to ensure
+
+#PEP-8:-  "THIS IS A SIMPLE POEM TO READ AND IMPLEMNT IN YOUR CODE".

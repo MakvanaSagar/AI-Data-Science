@@ -1,0 +1,15 @@
+print("Hi Gujrat") #This is Single line comment
+#And this  is Single line comment
+
+'''This is Multiline comment
+This is Multiline comment
+This is Multiline comment
+'''
+
+print("My name is Rohit sharma \n and My name is Virat kohli") # \n(____ESCAPS SEQUENCE CHARACTER____) :- This is most usefull character-main use any sentence new line show in output...
+
+print("Hardik",19,45,99, sep="~") # (sep="~") :- This is use print statment in character/values merge for one line...
+
+print("Rohit",89,23, end="Leader") # (end="Leader") :- This print statment use--show last And new print statment show in one line` 
+
+print("My sports")

@@ -1,0 +1,10 @@
+#===================================String Slicing & Opration===========================
+
+s = "Sagar DM"
+print(len(s))
+print(s[0:4]) #Python always - You find a character using INDEXING this time anwser calculate (input-1) ___ Supose s[0:4] Calculation s[0:4-1].
+print(s[1:4])
+print(s[:4]) #You can starting point not define this time Python automatic start with (0).
+print(s[0:-3]) #This is a simple (:) any side define (Minus value) to calculate [total lenght - input minus values]
+print(s[-1:-3])  #This is a simple (:) any side define (Minus value) to calculate [total lenght - input minus values] ------- aanu output atle "Sagar" karan ke aa indexing output no koi maning j nathi
+print(s[-5 : len(s) - 1])

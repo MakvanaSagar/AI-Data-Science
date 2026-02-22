@@ -1,0 +1,7 @@
+
+#====================================Generate Custome Error==========================================
+
+x = int(input("Enter number between 1 to 99 : "))
+
+if x < 1 or x > 99:
+    raise ValueError("Please check the number ")    #You can try in Python to generate your own error... 

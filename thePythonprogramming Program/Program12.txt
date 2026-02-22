@@ -1,0 +1,11 @@
+
+#===========================================Python Recursion======================================
+ 
+def myFunction(number):
+	
+	if number == 1:
+		return 1
+	else:
+		return number*myFunction(number-1)	#Recurison Formula...
+
+print(myFunction(11))

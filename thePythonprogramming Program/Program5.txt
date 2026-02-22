@@ -1,0 +1,37 @@
+#===============================================Basic of Type Casting=======================================
+
+a = "10"
+b = "20"
+c = "Sagar"
+d = "Developer"
+print(a+b)  #This Integer data write into String Data type but this is time PYTHON ouput genrate into Single line.
+print(c+d)  #This String data type in PYTHON ouput genrate into Single line.
+
+
+
+
+
+#==========Tow type of Type casting in Python: (1) Explicit Conversion (2) Implicit Conversion===============
+
+
+
+
+#(1) Implicit Conversion:- Simple means that Python automatic change the dataType.
+
+p = 5.3 #float dataType
+q = 9   #int dataType
+print(type(p))
+print(type(q))
+r = p+q
+print(r)
+print(type(r))
+
+
+
+
+
+#(2) Explicit Conversion:- Simple means that You can change the data type - Your self.
+
+s = "78"
+f = "92"
+print(int(s)+int(f)) #Simple Logic [String = "78" & "92"] convert into INT using user.

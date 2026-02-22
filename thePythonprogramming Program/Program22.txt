@@ -1,0 +1,17 @@
+#=======================================for loop with else=========================================
+
+for s in range(10):
+  print(s)
+else:
+  print("sorry no s")      # else will execute --- when loop is fully completed
+
+
+print("")
+
+
+for s in range(10):
+  print(s)
+  if s == 6:
+    break
+else:
+  print("sorry no s")    # else will not execute --- when loop(for/while) is breaked

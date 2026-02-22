@@ -1,0 +1,6 @@
+print(10+78) #Addition
+print(67-23) #Subtraction
+print(18*90) #Multiplication
+print(10/2) #Division
+print(99**99) #Exponential
+print(10%3) #Modulus

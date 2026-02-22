@@ -1,0 +1,25 @@
+
+#==========================================List Methods=======================================
+
+myList = [110,2,23,34,5,10,6,7,80,9,10]
+print(myList)
+
+myList.append(89)
+print(myList)              #---------Method-1
+
+myList.sort()
+print(myList)              #---------Method-2
+
+print(myList.index(89))    #---------Method-3
+
+print(myList.count(10))    #---------Method-4
+
+myList.insert(2,100)    
+print(myList)              #---------Method-5
+
+myList2 = [1000,2000,3000]
+myList.extend(myList2)
+print(myList)              #---------Method-6
+
+add = myList + myList2
+print(add)                 #---------Method-7

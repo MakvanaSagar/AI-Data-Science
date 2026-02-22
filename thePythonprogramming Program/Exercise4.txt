@@ -1,0 +1,17 @@
+
+encry = str(
+    input(
+        "Enter the encrypted message(Please enter Less than 3 or more than 8 Char) : "
+    ))
+
+if len(encry) <= 3:
+  decry = encry[::-1]
+  print(decry)
+
+elif len(encry) >= 8:
+  decryption = encry[3:-3]
+  decryption = decryption[-1] + decryption[:-1]
+  print(decryption)
+
+else:
+  print("Invalid Input")

@@ -1,0 +1,12 @@
+#=============================Python Function============================
+
+def calculateC(a,b):
+  c = (a*b)/(a+b)
+  return c                #Simple means that :- All code in one line or function convert call a "FUNCTION" as a                            						save the time... 
+
+a = 10
+b = 80
+print(calculateC(a,b))
+
+def newFunction(a,b):
+  pass                 #Pass means that :- I will other Code write this function later...                              

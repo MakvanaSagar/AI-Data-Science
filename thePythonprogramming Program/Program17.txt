@@ -1,0 +1,48 @@
+
+#====================================Python Tuple====================================
+
+myTup = (1,2,3,4,5,6,7,8,9,10,11)
+#myTup[0] = 100  This technique to use you can not change Tuple values
+#This position List availabe you can change values
+print(myTup)
+
+print(type(myTup))
+
+print(len(myTup))
+
+print(myTup[0])
+
+print(myTup[10])
+
+print(myTup[0:4])
+
+print(myTup[:-6])    # [:6] before the ':' this position Python automatic put 0
+
+if 894 in myTup:
+  print("Yes")
+else:
+  print("No")
+
+
+print("")
+print("")
+print("")
+#========================================Tuple Methods======================================
+
+myTup2 = (67,92,34,56,78,90,12,34,56,78,90,12,34,56)
+print(myTup2)
+print(len(myTup2))
+
+convert = list(myTup2)
+print(convert)          #------------Methode to convert Tuple to List
+
+convert.append(9999)    #------------Methode to add new value in List
+
+convert.pop(0)          #------------Methode to remove the value
+
+convert = tuple(myTup2)
+print(convert)          #------------Methode to convert List to Tuple
+
+print(myTup2.count(34)) #------------Methode to count the value
+
+print(myTup2.index(90)) #------------Methode to find the index of the value

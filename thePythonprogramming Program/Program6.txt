@@ -1,0 +1,23 @@
+
+#====================================Basic Input Program================================
+
+a = input()
+print(a)
+s = input("Enter your name: ")
+print(s)
+
+#==================================Some Input Program===================================
+
+x = input("Enter your first Values: ")
+y = input("Enter your secong Values: ")
+print(x + y)        #Remember... Remeber... Remember... Always Python any values consider STRING formatt (For Input Function)
+                    #Bacaues every day String convert into INT...
+print(int(x)+int(y))#Solution...
+
+#===================================Python Biggest Problem is Here...====================
+ 
+p = input("Enter your Favorite values: ")
+q = input("Enter your Favorite values: ")
+print(int(p) + int(q))
+
+

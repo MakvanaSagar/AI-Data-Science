@@ -1,0 +1,47 @@
+#=======================================Set Methods=====================================
+
+x = {1,2,3,4,5}
+y = {6,7,8,4,5}
+
+print(x.union(y))    #Union:- It will combine both the sets(x & y) and remove the Repeteded values.
+
+print(x.intersection(y))  #Intersection:- It will print the common values of both the sets(x & y).
+
+print(x.difference(y))
+print(y.difference(x))  #Difference:- It will print the values which are not common in both the sets(x & y).
+
+print(x.symmetric_difference(y))
+
+
+#=======================================Set MINP Methods=====================================
+
+
+a = {1,2,3,4,5}
+b = {6,7,8,4,5}
+
+print(a.isdisjoint(b)) #It will print True if both the sets(x & y) have no common values.
+
+print(a.issuperset(b))  #It will print True if all the values of a is present in b.
+
+print(a.issubset(b))  #It will print True if all the values of b is
+
+b.add(9)
+print(b)
+
+b.remove(9)
+print(b)
+
+b.discard(90)
+print(b)  #It will not throw any error if the value is not present in the set.
+
+b.pop()
+print(b)
+
+b.clear()
+print(b)  #It will clear all the values of the set.
+
+del b
+#print(b)  It will throw an error because the set is deleted.
+
+if 1 in a:
+  print("Yes")

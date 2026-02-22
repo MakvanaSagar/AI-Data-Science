@@ -1,0 +1,41 @@
+
+#===========================================Enumerate function==============================================
+
+myMarks = [85, 90, 95, 99, 95, 90, 85]
+
+'''
+index=0
+for mark in myMarks:
+  print(mark)
+  if(index == 3):
+    print("Awesome, very good!")
+  index +=1    
+  
+THIS IS SIMPLE WAY TO WRITE'''
+
+'''
+for index, mark in enumerate(myMarks):
+  print(mark)
+  if(index == 3):
+    print("Awesome, very good!")
+  index +=1
+USED TO WITH ENUMERATE FUNCTION'''
+
+'''
+
+-----------WITHOUT ENUMERATE FUNCTION-------------
+
+index = 0
+car = ["Maruti", "Hyundai", "Tata", "Mahindra"]
+for cars in car:
+  print(index, cars)
+  index +=1
+
+
+-----------WITH ENUMERATE FUNCTION-------------
+
+car = ["Maruti", "Hyundai", "Tata", "Mahindra"]
+for index, cars in enumerate(car):
+  print(index, cars)
+  
+'''

@@ -1,0 +1,49 @@
+
+print("")
+print("__________Welcome to the KBC Season of 2025__________")
+print("")
+
+price_money = 0
+
+myQuestions = [
+  {
+    "question" : "What is the capital of India?",
+    "options" : ["1. Delhi", "2. Mumbai", "3. Chennai", "4. Kolkata"],
+    "answer" : 1
+  },
+  {
+    "question" : "What is the capital of Maharashtra?",
+    "options" : ["1. Mumbai", "2. Pune", "3. Nagpur", "4. Kolkata"],
+    "answer" : 1
+  },
+  {
+    "question" : "What is the capital of Tamil Nadu?",
+    "options" : ["1. Chennai", "2. Madurai", "3. Kanyakumari", "4. Coimbatore"],
+    "answer" : 1
+  },
+  {
+    "question" : "What is the capital of Karnataka?",
+    "options" : ["1. Bangalore", "2. Mangalore", "3. Bengaluru", "4. Kolkata"],
+    "answer" : 1
+  },
+  {
+    "question" : "What is the capital of Kerala?",
+    "options" : ["1. Trivandrum", "2. Thiruvananthapuram", "3. Kochi", "4. Kolkata"],
+    "answer" : 1
+  }
+]
+
+for myQuestion in myQuestions:
+  print("\n" + myQuestion["question"])
+  for myOption in myQuestion["options"]:
+    print(myOption)
+  userAnswer = int(input("Enter your answer: "))
+  if userAnswer == myQuestion["answer"]:
+    price_money += 10000
+    print("Correct answer! 🎉")
+    print(f"You have won ₹{price_money}!")
+  else:
+    print("Wrong answer! Game Over 😔")
+    break
+
+print(f"\nFinal Prize Money: ₹{price_money}")

@@ -1,0 +1,30 @@
+#=================================The Consept of LIST=================================
+
+myList = [67,92,100,92,30]
+
+myList2 = ["Sagar","Virat","Axar","Dhoni","Rohit"]
+
+myList3 = [67,"Sagar",True,92.5]
+
+print(myList)
+print(myList[4]) #------------Opration-1
+
+print(myList2)
+print(myList2[-2]) #------------Opration-2
+
+print(myList3)
+
+if "Sagar" in myList3:
+  print("Yes") #------------Opration-3
+
+if 92.5 in myList3:
+  print("Yes")
+else:
+  print("No") #------------Opration-4
+
+print(myList[:]) #------------Opration-5
+print(myList[0:3]) #------------Opration-6
+print(myList[1:4:2]) #------------Opration-7
+
+myList4 = [i for i in range(10)]
+print(myList4)

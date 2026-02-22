@@ -1,0 +1,29 @@
+#================================String Fuctions================================
+a = "Sagar"
+b = "Blacksmith#########"
+c = "Rohit"
+d = "abc xyz @pqe ######"
+e = "my is xyz"
+f = "90pr"
+x = "bumrah"
+y =  "            "
+z = "Hi How Are You"
+p = "who are you"
+print(len(a)) #String length finding
+print(a.lower()) #String Lower function
+print(a.upper()) #String Upper function
+print(b.rstrip("#")) #Remove the specific element using "rstrip".
+print(c.replace("Rohit","Sharma")) #Replace the element in Specific location
+print(d.split()) #To genrate List 
+print(e.capitalize()) #any sentence to convert "For first element to convert Upper case and other element convert on lower case".
+print(a.center(50)) #Center the element to specific define values.
+print(c.endswith("t")) #This is define a "Input values in String last element or not!".
+print(c.find("h")) #You find any element and Python define a in Location.
+print(a.index("r")) #You can push your string element and Python genrate the Output in Location.
+print(a.isalnum()) #Valid isalnum :- A-Z,a-z,0-9.
+print(f.isalpha()) #Valid isalpha :- A-Z,a-z.
+print(x.islower()) #Valid islower :- a-z.
+print(y.isspace()) #Valid ispace :- who string avaleble for space.
+print(z.istitle()) #Valid istitle :- every element First word are capitalize
+print(a.swapcase())
+print(p.title()) #Convert into all first in Upper case.

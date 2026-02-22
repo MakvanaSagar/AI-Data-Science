@@ -1,0 +1,13 @@
+#==============================Function Argument===============================
+
+def newF(name,ID):   # (name,ID) :- This is called as function argument.
+  print(name,ID)
+
+newF("Sagar",12)
+newF("Rohit",45)
+newF("Virat",18)
+
+def myF(x,y,z=5): # (x,y,z=5) :- This is called as default argument.
+  print(x+y*z)
+
+myF(2,3)
